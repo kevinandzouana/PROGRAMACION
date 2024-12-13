@@ -51,7 +51,10 @@
 
             System.out.println(suma/array.length);
         }
-
+        public static void reversa(){
+            int array[] = generararray();
+            reversa(array);
+        }
         public static void reversa(int [] array){
             System.out.println("El array alreves");
 
